@@ -1,4 +1,4 @@
-package top.lbing.down1 ;
+package top.lbing.down_regioncode ;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -9,11 +9,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-/**
- * Hello world!
- *
- */
-public class Jsoup1 {
+public class App {
 
   public static FileWriter writer;
 
@@ -22,8 +18,7 @@ public class Jsoup1 {
       writer = new FileWriter("d:/1.txt");
     } catch (IOException e) {
       e.printStackTrace();
-    }
-  }
+    }  }
 
   public static void getValue(String url, String page, String pcode) {
     try {
